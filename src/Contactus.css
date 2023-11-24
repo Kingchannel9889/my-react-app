@@ -1,0 +1,137 @@
+.contact_us_container{
+    float: left;
+    padding: 10px;
+    margin-left: 300px;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+.contact_us_form{
+    width: 1000px;
+    height: 1250px;
+    padding: 20px;
+    border: 5px solid rgb(119, 145, 145);
+    border-radius: 10px;
+    background-color: #d0d0d4;
+}
+
+h1.Project_Title{
+font-family: 'IM Fell English', serif;
+font-family: 'Merienda', cursive;
+}
+
+.reg_form{
+    text-align: center;
+    font-size: 40px;
+    color:rgb(111, 163, 209)
+}
+
+.require{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(43, 112, 172);
+}
+
+fieldset{
+    border:none;
+    color: rgb(20, 114, 196);
+    padding:1rem 0;
+    border-bottom: 3px solid black;
+}
+
+
+fieldset:last-of-type {
+    border-bottom: none;
+  }
+
+label{
+    display:block;
+    margin: 0.5rem 0;
+}
+
+form{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+input, textarea {
+    background-color: #bbbbc9;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+
+input,textarea,select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input[type="file"] {
+    padding: 1px 2px;
+  }
+
+.inline{
+    width: unset;
+    margin:0 0.5em 0 0;
+    vertical-align: middle;
+    display: inline;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #7b7be6;
+    border-color: white;
+    min-width: 300px;
+  }
+
+  .btn{
+    height:5vh;
+    width: 20vh;
+    font-size: 15px;
+    background-color: var(--background-color);
+    outline:none;
+    position: relative;
+    cursor: pointer;
+    float:right;
+
+    --background-color:#d3a8a8;
+    --border-size: 2px;
+}
+
+.btn.btn-border-pop::before{
+    content: '';
+    position:absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    border: var(--border-size) solid var(--background-color);
+    transition: top left, right, bottom, 100ms ease-in-out;
+}
+
+.btn.btn-border-pop:hover::before,.btn.btn-border-pop:focus::before{
+    top:calc(var(--border-size)* -2);
+    left:calc(var(--border-size)* -2);
+    right:calc(var(--border-size)* -2);
+    bottom:calc(var(--border-size)* -2);
+}
+
+ .body_1 {
+            margin: 0;
+            background-color: #232250;
+            color: #5584b3;
+            font-family: Tahoma;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }

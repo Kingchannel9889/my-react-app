@@ -1,38 +1,129 @@
-.App {
+.container ol {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0 30px;
+  text-decoration: none;
+  font-size: larger;
+  text-decoration: none;
+ 
+ 
+}
+
+.container {
+  background-color: #872341;
+  padding: 10px; /* Adjust the padding as needed */
+}
+
+.nav-list {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #FF5B22;
+  font-size: 21px; /* Font color for the links */
+  /* Add any other styles as needed */
+}
+
+
+
+.about-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tour-section {
+  margin: 20px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navigation-buttons {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* ProductPage.css */
+
+.product-page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-details {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 20px;
+}
+
+.product-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.product-image img {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+  flex: 2;
+}
+
+.description {
+  font-style: italic;
+  color: #555;
+}
+
+.key-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+}
+
+.price {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.buy-now-button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buy-now-button:hover {
+  background-color: #45a049;
 }
